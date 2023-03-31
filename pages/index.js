@@ -8,7 +8,7 @@ import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
 import web1 from '../public/web1.png'
-import web2 from '../public/web2.png'
+import web2 from '../public/Meme-Gen-ScrShot.png'
 import web3 from '../public/web3.png'
 import web4 from '../public/web4.png'
 import web5 from '../public/web5.png'
@@ -90,22 +90,23 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>My Projects:</p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className='basis-1/3 flex-1'>
+            <div className='card basis-1/3 flex-1'>
               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
             </div>
-            <div className='basis-1/3 flex-1'>
-              <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
+            <div className='card basis-1/3 flex-1'>
+              <a target="_blank" href='https://incandescent-meringue-731cc5.netlify.app/'>
+              <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/></a>
             </div>
-            <div className='basis-1/3 flex-1'>
+            {/* <div className='card basis-1/3 flex-1'>
               <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
             </div>
-            <div className='basis-1/3 flex-1'>
+            <div className='card basis-1/3 flex-1'>
               <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
-            </div>
-            <div className='basis-1/3 flex-1'>
+            </div> */}
+            <div className='card basis-1/3 flex-1'>
               <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
             </div>
-            <div className='basis-1/3 flex-1'>
+            <div className='card basis-1/3 flex-1'>
               <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive"/>
             </div>
           </div>
