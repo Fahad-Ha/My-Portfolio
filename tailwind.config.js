@@ -5,8 +5,8 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
- 
-    // Or if using `src` directory:
+
+    // Or if using `src` director y:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
