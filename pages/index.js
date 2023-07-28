@@ -78,7 +78,126 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="py-20 mb-5">
+          <div className="bg-gray-50 rounded-3xl p-5">
+            <h3 class="text-3xl py-1 dark:text-white">Skills</h3>
+            <div class="grid grid-cols-5 gap-y-6 mt-8">
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=js"
+                  alt="JavaScript"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">JavaScript</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=ts"
+                  alt="TypeScript"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">TypeScript</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=html"
+                  alt="HTML"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">HTML</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=css"
+                  alt="CSS"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">CSS</span>
+              </div>
 
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=python"
+                  alt="Python"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">Python</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=react"
+                  alt="React"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">React & React Native</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=nodejs"
+                  alt="Node.js"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">Node.js</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=express"
+                  alt="Express.js"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">Express.js</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=django"
+                  alt="Django"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">Django</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=mongodb"
+                  alt="MongoDB"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">MongoDB</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=mysql"
+                  alt="MySQL"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">MySQL</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=git"
+                  alt="Git"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">Git</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=redux"
+                  alt="Redux"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">Redux</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=figma"
+                  alt="Figma"
+                  class="w-16 h-16 mb-2"
+                />
+                <span class="text-center">Figma</span>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Services I Offer</h3>
@@ -126,13 +245,10 @@ export default function Home() {
         </section> */}
         <section className="pb-20">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              My Projects:
-            </p>
+            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="card basis-1/3 flex-1 ">
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
+            <div className="card basis-1/3 flex-1">
               <a target="_blank" href="https://github.com/Fahad-Ha/BankProject">
                 <Image
                   src={web1}
@@ -141,6 +257,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                 />
+                <p className="text-center font-semibold mt-2">Bank Project</p>
               </a>
             </div>
             <div className="card basis-1/3 flex-1">
@@ -152,6 +269,9 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                 />
+                <p className="text-center font-semibold mt-2 ">
+                  Mobile Delivery Project
+                </p>
               </a>
             </div>
             <div className="card basis-1/3 flex-1">
@@ -166,8 +286,12 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                 />
+                <p className="text-center font-semibold mt-2">
+                  Food Recipes Project
+                </p>
               </a>
             </div>
+
             <div className="card basis-1/3 flex-1">
               <a href="https://illustrious-cucurucho-279b5c.netlify.app/">
                 <Image
@@ -177,6 +301,9 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                 />
+                <p className="text-center font-semibold mt-2">
+                  Clicker Game Project
+                </p>
               </a>
             </div>
             {/* <div className="card basis-1/3 flex-1">
