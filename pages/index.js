@@ -80,126 +80,134 @@ export default function Home() {
         </section>
         <section className="py-20 mb-5">
           <div className="bg-gray-50 dark:bg-gray-700 rounded-3xl p-5 min-w-[400px]">
-            <h3 class="text-3xl py-1 dark:text-white justify-center items-center">
+            <h3 className="text-3xl py-1 dark:text-white justify-center items-center">
               Skills
             </h3>
-            <div class="grid grid-cols-3 sm:grid-cols-5 gap-y-3 sm:gap-y-6 mt-8 min-w-[300px] ">
-              <div class="flex flex-col items-center ">
+            <div className="grid grid-cols-3 sm:grid-cols-5 gap-y-3 sm:gap-y-6 mt-8 min-w-[300px] ">
+              <div className="flex flex-col items-center ">
                 <img
                   src="https://skillicons.dev/icons?i=js"
                   alt="JavaScript"
                   className="sm:w-16 sm:h-16 mb-2 "
                 />
-                <span class="text-center dark: dark:text-white">
+                <span className="text-center dark: dark:text-white">
                   JavaScript
                 </span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
                   src="https://skillicons.dev/icons?i=ts"
                   alt="TypeScript"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">TypeScript</span>
+                <span className="text-center dark:text-white">TypeScript</span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
                   src="https://skillicons.dev/icons?i=html"
                   alt="HTML"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">HTML</span>
+                <span className="text-center dark:text-white">HTML</span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
                   src="https://skillicons.dev/icons?i=css"
                   alt="CSS"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">CSS</span>
+                <span className="text-center dark:text-white">CSS</span>
               </div>
 
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
-                  src="https://skillicons.dev/icons?i=python"
-                  alt="Python"
-                  class="sm:w-16 sm:h-166 mb-2"
+                  src="https://skillicons.dev/icons?i=angular"
+                  alt="Angular"
+                  className="sm:w-16 sm:h-166 mb-2"
                 />
-                <span class="text-center dark:text-white">Python</span>
+                <span className="text-center dark:text-white">Angular</span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
                   src="https://skillicons.dev/icons?i=react"
                   alt="React"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">
+                <span className="text-center dark:text-white">
                   React & React Native
                 </span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=flutter"
+                  alt="Flutter"
+                  className="sm:w-16 sm:h-16 mb-2"
+                />
+                <span className="text-center dark:text-white">Flutter</span>
+              </div>
+              <div className="flex flex-col items-center">
                 <img
                   src="https://skillicons.dev/icons?i=nodejs"
                   alt="Node.js"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">Node.js</span>
+                <span className="text-center dark:text-white">Node.js</span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
                   src="https://skillicons.dev/icons?i=express"
                   alt="Express.js"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">Express.js</span>
+                <span className="text-center dark:text-white">Express.js</span>
               </div>
-              <div class="flex flex-col items-center">
-                <img
-                  src="https://skillicons.dev/icons?i=django"
-                  alt="Django"
-                  class="sm:w-16 sm:h-16 mb-2"
-                />
-                <span class="text-center dark:text-white">Django</span>
-              </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
                   src="https://skillicons.dev/icons?i=mongodb"
                   alt="MongoDB"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">MongoDB</span>
+                <span className="text-center dark:text-white">MongoDB</span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
                   src="https://skillicons.dev/icons?i=mysql"
                   alt="MySQL"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">MySQL</span>
+                <span className="text-center dark:text-white">MySQL</span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
-                  src="https://skillicons.dev/icons?i=git"
-                  alt="Git"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  src="https://skillicons.dev/icons?i=docker"
+                  alt="Docker"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">Git</span>
+                <span className="text-center dark:text-white">Docker</span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <img
-                  src="https://skillicons.dev/icons?i=redux"
-                  alt="Redux"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  src="https://skillicons.dev/icons?i=kubernetes"
+                  alt="Kubernetes"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">Redux</span>
+                <span className="text-center dark:text-white">Kubernetes</span>
               </div>
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
+                <img
+                  src="https://skillicons.dev/icons?i=gcp"
+                  alt="GCP"
+                  className="sm:w-16 sm:h-16 mb-2"
+                />
+                <span className="text-center dark:text-white">GCP</span>
+              </div>
+              <div className="flex flex-col items-center">
                 <img
                   src="https://skillicons.dev/icons?i=figma"
                   alt="Figma"
-                  class="sm:w-16 sm:h-16 mb-2"
+                  className="sm:w-16 sm:h-16 mb-2"
                 />
-                <span class="text-center dark:text-white">Figma</span>
+                <span className="text-center dark:text-white">Figma</span>
               </div>
             </div>
           </div>
