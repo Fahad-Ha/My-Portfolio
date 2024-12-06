@@ -119,7 +119,7 @@ export default function EfhamniPrivacyPolicy() {
               5. Children&apos;s Privacy
             </h4>
             <p className="dark:text-gray-200">
-              Efhmani is rated 3+ to ensure it&apos;s appropriate for all ages. We do
+            Efhmani is rated 3+ on the Play Store and 4+ on App Store to ensure it&apos;s appropriate for all ages. We do
               not knowingly collect personal data from children under 13.
             </p>
             <p className="dark:text-gray-200">
