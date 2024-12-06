@@ -1,20 +1,13 @@
 import Head from "next/head";
-import { BsMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import fahad from "../public/dev-ed-wave.png";
+import { useState } from "react";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { BsMoonStarsFill } from "react-icons/bs";
 import fahad2 from "../public/Avatar.jpg";
-import design from "../public/design.png";
 import clicker from "../public/clicker.png";
-import code from "../public/code.png";
-import consulting from "../public/consulting.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
-import web4 from "../public/Meme-Gen-ScrShot.png";
 import web3 from "../public/web3.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
-import { useState } from "react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
