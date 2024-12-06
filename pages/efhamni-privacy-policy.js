@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import { BsMoonStarsFill } from "react-icons/bs";
 
-export default function efhamniPrivacyPolicy() {
+export default function EfhamniPrivacyPolicy() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
@@ -116,10 +116,10 @@ export default function efhamniPrivacyPolicy() {
               <li>App Store or Google Play (for in-app purchases)</li>
             </ul>
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              5. Children’s Privacy
+              5. Children&apos;s Privacy
             </h4>
             <p className="dark:text-gray-200">
-              Efhmani is rated 3+ to ensure it's appropriate for all ages. We do
+              Efhmani is rated 3+ to ensure it&apos;s appropriate for all ages. We do
               not knowingly collect personal data from children under 13.
             </p>
             <p className="dark:text-gray-200">
