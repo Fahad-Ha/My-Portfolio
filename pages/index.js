@@ -35,7 +35,7 @@ export default function Home() {
                 <a
                   target={"_blank"}
                   className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://docs.google.com/document/d/1m1BvkAyJnXY6xsCd9Ylo4IBsuXgE04tlMZPBOBdGduQ/edit?usp=sharing"
+                  href="https://drive.google.com/file/d/1ENxlm1bqGiGHCDF_hfk2iHriAu6Vwrhe/view?usp=sharing"
                 >
                   Resume
                 </a>
