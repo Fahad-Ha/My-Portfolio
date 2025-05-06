@@ -53,7 +53,10 @@ export default function EfhamniPrivacyPolicy() {
                 account, we collect basic profile information such as your name,
                 email address, and profile picture.
               </li>
-              <li>Feedback: Any feedback, support requests, or inquiries submitted through the app.</li>
+              <li>
+                Feedback: Any feedback, support requests, or inquiries submitted
+                through the app.
+              </li>
               <li>
                 <strong>In-App Purchases:</strong> Information related to in-app
                 purchases, such as purchase history, is collected via the app
@@ -107,8 +110,8 @@ export default function EfhamniPrivacyPolicy() {
             </h4>
             <p className="dark:text-gray-200">
               The app may include third-party tools, advertisements, or payment
-              gateways. These services may collect data about you as outlined
-              in their respective privacy policies. Examples include:
+              gateways. These services may collect data about you as outlined in
+              their respective privacy policies. Examples include:
             </p>
             <ul className="list-disc pl-5 dark:text-gray-200">
               <li>Google Analytics</li>
@@ -119,8 +122,9 @@ export default function EfhamniPrivacyPolicy() {
               5. Children&apos;s Privacy
             </h4>
             <p className="dark:text-gray-200">
-            Efhmani is rated 3+ on the Play Store and 4+ on App Store to ensure it&apos;s appropriate for all ages. We do
-              not knowingly collect personal data from children under 13.
+              Efhmani is rated 3+ on the Play Store and 4+ on App Store to
+              ensure it&apos;s appropriate for all ages. We do not knowingly
+              collect personal data from children under 13.
             </p>
             <p className="dark:text-gray-200">
               Parents are encouraged to monitor app usage to ensure a safe and
@@ -151,7 +155,8 @@ export default function EfhamniPrivacyPolicy() {
               please contact us:
             </p>
             <p className="dark:text-gray-200">
-              Email: <a href="mailto:fahad.devx@gmail.com">fahad.devx@gmail.com</a>
+              Email:{" "}
+              <a href="mailto:fahad.devx@gmail.com">fahad.devx@gmail.com</a>
             </p>
           </div>
         </section>
