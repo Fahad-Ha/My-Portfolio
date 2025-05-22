@@ -48,31 +48,24 @@ export default function EfhamniPrivacyPolicy() {
             </h4>
             <ul className="list-disc pl-5 dark:text-gray-200">
               <li>
-                <strong>1.1 Information You Provide to Us:</strong> Account
-                Information: If you sign in using a Google or social media
-                account, we collect basic profile information such as your name,
-                email address, and profile picture.
+                <strong>1.1 Account Information:</strong> When you sign in via
+                Google Sign‑In, Apple Sign‑In, or other social providers, we
+                collect basic profile details such as your name, email address,
+                and profile picture.
               </li>
               <li>
-                Feedback: Any feedback, support requests, or inquiries submitted
-                through the app.
+                <strong>1.2 Feedback & Support:</strong> Any messages, feedback,
+                or inquiries you submit through the app.
+              </li>
+
+              <li>
+                <strong>1.3 Automatically Collected Information:</strong> Device
+                type, operating system, usage statistics, crash reports, and
+                diagnostic data to improve app performance.
               </li>
               <li>
-                <strong>In-App Purchases:</strong> Information related to in-app
-                purchases, such as purchase history, is collected via the app
-                store and processed securely by the store.
-              </li>
-              <li>
-                <strong>1.2 Automatically Collected Information:</strong> Device
-                Information: Device type, operating system, and version. Game
-                Data: In-game activities such as scores, game progress, and
-                preferences. Usage Data: App usage statistics, crash reports,
-                and diagnostic data.
-              </li>
-              <li>
-                <strong>1.3 Third-Party Services:</strong> If you interact with
-                third-party services (e.g., ads, analytics, or payment
-                gateways), they may collect information per their privacy
+                <strong>1.4 Third‑Party Services:</strong> If you interact with
+                ads or analytics providers, they may collect data per their own
                 policies.
               </li>
             </ul>
@@ -105,8 +98,23 @@ export default function EfhamniPrivacyPolicy() {
                 share your data.
               </li>
             </ul>
+
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              4. Third-Party Services
+              4. Account Deletion
+            </h4>
+            <p className="dark:text-gray-200">
+              Currently, you cannot delete your account directly within the app.
+              To request complete account deletion, please contact us at{" "}
+              <a
+                className="dark:text-teal-400 text-teal-600"
+                href="mailto:fahad.devx@gmail.com"
+              >
+                fahad.devx@gmail.com
+              </a>{" "}
+              and we will process your request.
+            </p>
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              5. Third-Party Services
             </h4>
             <p className="dark:text-gray-200">
               The app may include third-party tools, advertisements, or payment
@@ -119,7 +127,7 @@ export default function EfhamniPrivacyPolicy() {
               <li>App Store or Google Play (for in-app purchases)</li>
             </ul>
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              5. Children&apos;s Privacy
+              6. Children&apos;s Privacy
             </h4>
             <p className="dark:text-gray-200">
               Efhmani is rated 3+ on the Play Store and 4+ on App Store to
@@ -131,7 +139,7 @@ export default function EfhamniPrivacyPolicy() {
               age-appropriate experience.
             </p>
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              6. In-App Purchases
+              7. In-App Purchases
             </h4>
             <p className="dark:text-gray-200">
               Purchases are handled securely through the app store. We do not
@@ -139,8 +147,43 @@ export default function EfhamniPrivacyPolicy() {
               controls are set up to manage in-app purchases for children under
               their supervision.
             </p>
+            {/* 7. Community-Created Categories */}
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              7. Changes to This Privacy Policy
+              8. Community-Created Categories
+            </h4>
+            <p className="dark:text-gray-200">
+              You can create your own custom categories and choose to keep them
+              private just for yourself or share them publicly with the
+              community.
+              <ul className="list-disc pl-5 dark:text-gray-200">
+                <li>
+                  <strong>Private:</strong> Only you can view, edit, or delete
+                  these at any time.
+                </li>
+                <li>
+                  <strong>Public:</strong> Visible to everyone—changes are
+                  final, but you can request removal by contacting our support
+                  team.
+                </li>
+              </ul>
+              Any inappropriate uploads violate our terms and may result in
+              removal of the content or suspension/deletion of your account. If
+              you need a public category taken down, please reach out to our
+              team for assistance.
+            </p>
+
+            {/* 8. Subscriptions */}
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              9. Subscriptions
+            </h4>
+            <p className="dark:text-gray-200">
+              Efhmani may offer subscription-based premium features in the
+              future. Subscription payments are processed via your device’s app
+              store; we do not store your payment details. By subscribing, you
+              agree to the store’s terms and this Privacy Policy.
+            </p>
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              10. Changes to This Privacy Policy
             </h4>
             <p className="dark:text-gray-200">
               We may update this Privacy Policy periodically. Any changes will
@@ -148,7 +191,7 @@ export default function EfhamniPrivacyPolicy() {
               to review this policy regularly.
             </p>
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              8. Contact Us
+              11. Contact Us
             </h4>
             <p className="dark:text-gray-200">
               If you have questions or concerns about this Privacy Policy,
@@ -162,7 +205,7 @@ export default function EfhamniPrivacyPolicy() {
         </section>
       </main>
       <footer className="text-center bg-white text-gray-800 pt-5 pb-2 dark:text-gray-200 dark:bg-gray-900">
-        Made by Fahad
+        Made by Efhamni Team
       </footer>
     </div>
   );

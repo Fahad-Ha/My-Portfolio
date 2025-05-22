@@ -132,11 +132,27 @@ export default function SarkkPrivacyPolicy() {
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              7. Community‑Created Categories
+              7. Community-Created Categories
             </h4>
             <p className="dark:text-gray-200">
-              Future versions will allow user‑generated categories; any data you
-              submit there will follow this policy.
+              You can create your own custom categories and choose to keep them
+              private just for yourself or share them publicly with the
+              community.
+              <ul className="list-disc pl-5 dark:text-gray-200">
+                <li>
+                  <strong>Private:</strong> Only you can view, edit, or delete
+                  these at any time.
+                </li>
+                <li>
+                  <strong>Public:</strong> Visible to everyone—changes are
+                  final, but you can request removal by contacting our support
+                  team.
+                </li>
+              </ul>
+              Any inappropriate uploads violate our terms and may result in
+              removal of the content or suspension/deletion of your account. If
+              you need a public category taken down, please reach out to our
+              team for assistance.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
