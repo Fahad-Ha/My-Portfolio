@@ -196,6 +196,21 @@ export default function SarkkEula() {
               FROM YOUR USE OF OR INABILITY TO USE THE GAME. TOTAL LIABILITY
               WILL NOT EXCEED THE AMOUNT PAID BY YOU IN THE PREVIOUS 12 MONTHS.
             </p>
+
+            {/* Section 15 */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              10. Contact
+            </h3>
+            <p className="dark:text-gray-200">
+              Questions? Email{" "}
+              <a
+                href="mailto:sarkk.game@gmail.com"
+                className="text-teal-600 dark:text-teal-400"
+              >
+                sarkk.game@gmail.com
+              </a>
+              .
+            </p>
           </div>
         </section>
       </main>
