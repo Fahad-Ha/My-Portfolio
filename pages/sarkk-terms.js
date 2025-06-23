@@ -129,7 +129,7 @@ export default function SarkkTerms() {
             <p className="dark:text-gray-200">
               We collect gameplay analytics and account data as described in our{" "}
               <Link
-                to="/sarkk-privacy-policy"
+                href="/sarkk-privacy-policy"
                 className="text-teal-600 dark:text-teal-400 underline"
               >
                 Privacy Policy
