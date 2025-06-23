@@ -304,13 +304,6 @@ export default function SarkkEula() {
               </a>
               .
             </p>
-
-            {/* Closing note */}
-            <p className="italic text-sm dark:text-gray-500">
-              This template is provided for informational purposes and is not
-              legal advice. Consult qualified counsel to tailor it to your
-              situation.
-            </p>
           </div>
         </section>
       </main>
