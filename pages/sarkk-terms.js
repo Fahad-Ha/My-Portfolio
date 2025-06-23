@@ -99,10 +99,9 @@ export default function SarkkTerms() {
                 <strong>RevenueCat</strong>.
               </li>
               <li>
-                <strong>Unlockable Skins :</strong> Cosmetic skins unlocked
-                through an active subscription have no cash value and cannot be
-                transferred or sold. If the subscription lapses, access to those
-                skins may be removed.
+                Unlockable skins, custom categories, and premium features are
+                available while your subscription is active; they have no cash
+                value and are non-transferable.
               </li>
               <li>
                 <strong>Refunds :</strong> All sales are considered final;
