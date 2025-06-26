@@ -88,9 +88,10 @@ export default function SarkkPrivacyPolicy() {
               Yo can delete your account directly within the app.
             </p>
             <p className="pt-2 dark:text-gray-200">
-              <strong>Important:</strong> Any <em>public</em> categories you
-              created will remain visible to the community after your account is
-              deleted. Private categories are removed along with your data.
+              <strong>Important:</strong> Any <em>public</em> categories and
+              questions you created will remain visible to the community after
+              your account is deleted. Private categories are removed along with
+              your data.
             </p>
             <p className="pt-2 dark:text-gray-200">
               If you encounter any issues, email&nbsp;
