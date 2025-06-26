@@ -189,7 +189,7 @@ export default function SarkkPrivacyPolicy() {
                 className="dark:text-teal-400 text-teal-600"
                 href="mailto:fahad.devx@gmail.com"
               >
-                fahad.devx@gmail.com
+                sarkk.game@gmail.com
               </a>
               .
             </p>
