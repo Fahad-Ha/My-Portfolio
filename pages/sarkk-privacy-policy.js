@@ -85,15 +85,22 @@ export default function SarkkPrivacyPolicy() {
               3. Account Deletion
             </h4>
             <p className="dark:text-gray-200">
-              Currently, you cannot delete your account directly within the app.
-              To request complete account deletion, please contact us at{" "}
+              Yo can delete your account directly within the app.
+            </p>
+            <p className="pt-2 dark:text-gray-200">
+              <strong>Important:</strong> Any <em>public</em> categories you
+              created will remain visible to the community after your account is
+              deleted. Private categories are removed along with your data.
+            </p>
+            <p className="pt-2 dark:text-gray-200">
+              If you encounter any issues, email&nbsp;
               <a
-                className="dark:text-teal-400 text-teal-600"
-                href="mailto:fahad.devx@gmail.com"
+                className="dark:text-teal-400 text-teal-600 underline"
+                href="mailto:sarkk.game@gmail.com"
               >
-                fahad.devx@gmail.com
-              </a>{" "}
-              and we will process your request.
+                sarkk.game@gmail.com
+              </a>
+              &nbsp;and we’ll assist you.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
@@ -167,10 +174,10 @@ export default function SarkkPrivacyPolicy() {
               9. Subscriptions
             </h4>
             <p className="dark:text-gray-200">
-              Sarkk may offer subscription-based premium features in the future.
-              Subscription payments are processed via your device’s app store;
-              we do not store your payment details. By subscribing, you agree to
-              the store’s terms and this Privacy Policy.
+              Sarkk offer subscription-based premium features. Subscription
+              payments are processed via your device’s app store; we do not
+              store your payment details. By subscribing, you agree to the
+              store’s terms and this Privacy Policy.
             </p>
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
               10. Contact Us
