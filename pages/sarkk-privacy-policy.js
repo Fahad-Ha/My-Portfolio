@@ -88,10 +88,31 @@ export default function SarkkPrivacyPolicy() {
               Yo can delete your account directly within the app.
             </p>
             <p className="pt-2 dark:text-gray-200">
-              <strong>Important:</strong> Any <em>public</em> categories and
-              questions you created will remain visible to the community after
-              your account is deleted. Private categories are removed along with
-              your data.
+              <strong>Important:</strong>{" "}
+              <h2>What happens when you delete your account?</h2>
+              <ul>
+                <li>
+                  <strong>Private content</strong> (your private categories and
+                  questions) will be permanently removed—no trace will remain.
+                </li>
+                <li>
+                  <strong>Public content</strong> (any categories or questions
+                  you’ve shared publicly) will be anonymized and stay available
+                  to the community.
+                </li>
+                <li>
+                  <strong>Your personal data</strong> (profile info, email,
+                  etc.) is wiped out entirely.
+                </li>
+              </ul>
+              <blockquote>
+                <p>
+                  <strong>Want to remove public content, too?</strong>
+                  <br />
+                  Please reach out to our support team before deleting your
+                  account, and we’ll take care of it for you.
+                </p>
+              </blockquote>
             </p>
             <p className="pt-2 dark:text-gray-200">
               If you encounter any issues, email&nbsp;
@@ -180,8 +201,34 @@ export default function SarkkPrivacyPolicy() {
               store your payment details. By subscribing, you agree to the
               store’s terms and this Privacy Policy.
             </p>
+
+            {/* 6. Modifications and Maintenance */}
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              10. Contact Us
+              10. Modifications and Maintenance
+            </h4>
+            <ul className="list-disc pl-5 dark:text-gray-200">
+              <li>
+                We reserve the right to modify or update the game at any time.
+              </li>
+              <li>
+                We may temporarily suspend the service for maintenance or
+                updates.
+              </li>
+              <li>These terms may be amended from time to time.</li>
+            </ul>
+
+            {/* 7. Disclaimer */}
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              11. Disclaimer
+            </h4>
+            <p className="dark:text-gray-200">
+              The game is provided “as is” without any warranties. We shall not
+              be liable for any damages arising from the use of or inability to
+              use our services.
+            </p>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              12. Contact Us
             </h4>
             <p className="dark:text-gray-200">
               Questions or concerns? Email us at{" "}

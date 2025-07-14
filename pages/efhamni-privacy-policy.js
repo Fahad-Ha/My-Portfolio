@@ -103,15 +103,31 @@ export default function EfhamniPrivacyPolicy() {
               4. Account Deletion
             </h4>
             <p className="dark:text-gray-200">
-              Currently, you cannot delete your account directly within the app.
-              To request complete account deletion, please contact us at{" "}
-              <a
-                className="dark:text-teal-400 text-teal-600"
-                href="mailto:fahad.devx@gmail.com"
-              >
-                fahad.devx@gmail.com
-              </a>{" "}
-              and we will process your request.
+              <strong>Important:</strong>{" "}
+              <h2>What happens when you delete your account?</h2>
+              <ul>
+                <li>
+                  <strong>Private content</strong> (your private categories and
+                  words/cards) will be permanently removed—no trace will remain.
+                </li>
+                <li>
+                  <strong>Public content</strong> (any categories or words/cards
+                  you’ve shared publicly) will be anonymized and stay available
+                  to the community.
+                </li>
+                <li>
+                  <strong>Your personal data</strong> (profile info, email,
+                  etc.) is wiped out entirely.
+                </li>
+              </ul>
+              <blockquote>
+                <p>
+                  <strong>Want to remove public content, too?</strong>
+                  <br />
+                  Please reach out to our support team before deleting your
+                  account.
+                </p>
+              </blockquote>
             </p>
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
               5. Third-Party Services
@@ -190,8 +206,34 @@ export default function EfhamniPrivacyPolicy() {
               be effective immediately upon posting in the app. We encourage you
               to review this policy regularly.
             </p>
+
+            {/* 6. Modifications and Maintenance */}
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              11. Contact Us
+              11. Modifications and Maintenance
+            </h4>
+            <ul className="list-disc pl-5 dark:text-gray-200">
+              <li>
+                We reserve the right to modify or update the game at any time.
+              </li>
+              <li>
+                We may temporarily suspend the service for maintenance or
+                updates.
+              </li>
+              <li>These terms may be amended from time to time.</li>
+            </ul>
+
+            {/* 7. Disclaimer */}
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              12. Disclaimer
+            </h4>
+            <p className="dark:text-gray-200">
+              The game is provided “as is” without any warranties. We shall not
+              be liable for any damages arising from the use of or inability to
+              use our services.
+            </p>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              13. Contact Us
             </h4>
             <p className="dark:text-gray-200">
               If you have questions or concerns about this Privacy Policy,
