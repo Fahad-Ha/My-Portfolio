@@ -32,9 +32,6 @@ export default function EfhamniPrivacyPolicy() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-400">
               Terms of Use
             </h2>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200">
-              Last updated 27 July 2025
-            </p>
           </div>
 
           {/* BODY */}
@@ -317,6 +314,7 @@ export default function EfhamniPrivacyPolicy() {
       </main>
       <footer className="text-center bg-white text-gray-800 pt-5 pb-2 dark:text-gray-200 dark:bg-gray-900">
         Made by Efhamni Team
+        <p>Last updated 27 July 2025</p>
       </footer>
     </div>
   );
