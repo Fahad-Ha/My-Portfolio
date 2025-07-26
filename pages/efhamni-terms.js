@@ -305,8 +305,8 @@ export default function EfhamniPrivacyPolicy() {
               13. Contact Us
             </h4>
             <p className="dark:text-gray-200">
-              If you have questions or concerns about this Privacy Policy,
-              please contact us:
+              If you have questions or concerns about this Terms, please contact
+              us:
             </p>
             <p className="dark:text-gray-200">
               Email:{" "}
