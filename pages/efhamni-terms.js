@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { useState } from "react";
 import { BsMoonStarsFill } from "react-icons/bs";
 
@@ -26,210 +27,250 @@ export default function EfhamniPrivacyPolicy() {
               </li>
             </ul>
           </nav>
+          {/* Header */}
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-400">
-              Privacy Policy
+              Terms of Use
             </h2>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200">
-              Welcome to Efhmani! We are committed to protecting your privacy.
+              Last updated 27 December 2024
             </p>
           </div>
-          <div className="text-left bg-gray-50 dark:bg-gray-800 rounded-lg p-8">
-            <h3 className="text-3xl font-bold py-2 dark:text-white">
-              Privacy Policy for Efhmani
+
+          {/* BODY */}
+          <div className="text-left bg-gray-50 dark:bg-gray-800 rounded-lg p-8 space-y-6">
+            {/* 0. Store-Level Agreements */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              Store-Level Agreements
             </h3>
-            <p className="py-2 dark:text-gray-200">
-              Welcome to Efhmani! We are committed to protecting your privacy.
-              This Privacy Policy outlines how we collect, use, and protect your
-              information when you use our app.
+            <p className="dark:text-gray-200">
+              By installing or using <strong>Efhamni / إفهمني</strong> you
+              confirm that you have read and agree to the applicable store terms{" "}
+              <b>in addition to</b> the sections below:
             </p>
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              1. Information We Collect
-            </h4>
-            <ul className="list-disc pl-5 dark:text-gray-200">
+            <ul className="list-disc pl-5 dark:text-gray-200 space-y-2">
               <li>
-                <strong>1.1 Account Information:</strong> When you sign in via
-                Google Sign‑In, Apple Sign‑In, or other social providers, we
-                collect basic profile details such as your name, email address,
-                and profile picture.
+                <strong>iOS / Apple&nbsp;App Store :</strong>&nbsp;
+                <a
+                  href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-teal-600 dark:text-teal-400 underline"
+                >
+                  Apple Standard End-User License Agreement (EULA)
+                </a>
               </li>
               <li>
-                <strong>1.2 Feedback & Support:</strong> Any messages, feedback,
-                or inquiries you submit through the app.
-              </li>
-
-              <li>
-                <strong>1.3 Automatically Collected Information:</strong> Device
-                type, operating system, usage statistics, crash reports, and
-                diagnostic data to improve app performance.
-              </li>
-              <li>
-                <strong>1.4 Third‑Party Services:</strong> If you interact with
-                ads or analytics providers, they may collect data per their own
-                policies.
-              </li>
-            </ul>
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              2. How We Use Your Information
-            </h4>
-            <ul className="list-disc pl-5 dark:text-gray-200">
-              <li>Provide and improve the Efhmani app experience.</li>
-              <li>Maintain and analyze app performance.</li>
-              <li>Process in-app purchases securely.</li>
-              <li>Respond to user inquiries or support requests.</li>
-              <li>Show relevant advertisements or offers.</li>
-              <li>Ensure compliance with legal obligations.</li>
-            </ul>
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              3. Information Sharing and Disclosure
-            </h4>
-            <ul className="list-disc pl-5 dark:text-gray-200">
-              <li>We do not sell your personal data.</li>
-              <li>
-                <strong>With Service Providers:</strong> To help us analyze app
-                performance, process purchases, or show advertisements.
-              </li>
-              <li>
-                <strong>For Legal Reasons:</strong> To comply with legal
-                obligations or protect our rights.
-              </li>
-              <li>
-                <strong>With Your Consent:</strong> If you explicitly agree to
-                share your data.
+                <strong>Android / Google Play :</strong>&nbsp;
+                <a
+                  href="https://play.google.com/intl/en/about/play-terms.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-teal-600 dark:text-teal-400 underline"
+                >
+                  Google Play Terms of Service
+                </a>
               </li>
             </ul>
 
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              4. Account Deletion
-            </h4>
+            {/* 1. Age Requirement */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              1. Age Requirement
+            </h3>
             <p className="dark:text-gray-200">
-              <strong>Important:</strong>{" "}
-              <h2>What happens when you delete your account?</h2>
-              <ul>
-                <li>
-                  <strong>Private content</strong> (your private categories and
-                  words/cards) will be permanently removed—no trace will remain.
-                </li>
-                <li>
-                  <strong>Public content</strong> (any categories or words/cards
-                  you’ve shared publicly) will be anonymized and stay available
-                  to the community.
-                </li>
-                <li>
-                  <strong>Your personal data</strong> (profile info, email,
-                  etc.) is wiped out entirely.
-                </li>
-              </ul>
-              <blockquote>
-                <p>
-                  <strong>Want to remove public content, too?</strong>
-                  <br />
-                  Please reach out to our support team before deleting your
-                  account.
-                </p>
-              </blockquote>
+              The Game is rated 3+ on Google Play and 4+ on App Store. If you
+              are under 13 you must have parental permission before playing or
+              making purchases.
             </p>
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              5. Third-Party Services
-            </h4>
-            <p className="dark:text-gray-200">
-              The app may include third-party tools, advertisements, or payment
-              gateways. These services may collect data about you as outlined in
-              their respective privacy policies. Examples include:
-            </p>
-            <ul className="list-disc pl-5 dark:text-gray-200">
-              <li>Google Analytics</li>
-              <li>Google AdMob</li>
-              <li>App Store or Google Play (for in-app purchases)</li>
+
+            {/* 2. Subscriptions & Purchases */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              2. Subscriptions & In-App Purchases
+            </h3>
+            <ul className="list-disc pl-5 dark:text-gray-200 space-y-2">
+              <li>
+                Payments are processed through your store account via{" "}
+                <strong>RevenueCat</strong>.
+              </li>
+              <li>
+                Premium features include access to community-created categories,
+                additional original categories, and the ability to create
+                unlimited custom categories.
+              </li>
+              <li>
+                Virtual items and features have no cash value and are
+                non-transferable.
+              </li>
+              <li>
+                <strong>Refunds :</strong> All sales are considered final;
+                however, refund requests are handled directly by the App Store
+                or Google Play and will follow their respective policies and any
+                applicable consumer-protection laws.
+              </li>
             </ul>
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              6. Children&apos;s Privacy
-            </h4>
-            <p className="dark:text-gray-200">
-              Efhmani is rated 3+ on the Play Store and 4+ on App Store to
-              ensure it&apos;s appropriate for all ages. We do not knowingly
-              collect personal data from children under 13.
+
+            {/* 3. User Conduct & Content */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              3. User Conduct & Content Guidelines
+            </h3>
+            <p className="dark:text-gray-200">You agree not to:</p>
+            <ul className="list-disc pl-5 dark:text-gray-200 space-y-2">
+              <li>Upload offensive, inappropriate, or unlawful content</li>
+              <li>Harass, abuse, or harm other users</li>
+              <li>
+                Cheat, exploit bugs, or use unauthorized third-party tools
+              </li>
+              <li>Reverse-engineer, decompile, or modify the Game</li>
+              <li>Violate any applicable laws or regulations</li>
+              <li>Impersonate others or provide false information</li>
+            </ul>
+            <p className="dark:text-gray-200 mt-3">
+              Violations may result in content removal, account suspension, or
+              permanent termination.
             </p>
-            <p className="dark:text-gray-200">
-              Parents are encouraged to monitor app usage to ensure a safe and
-              age-appropriate experience.
-            </p>
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              7. In-App Purchases
-            </h4>
-            <p className="dark:text-gray-200">
-              Purchases are handled securely through the app store. We do not
-              store payment information directly. Parents should ensure parental
-              controls are set up to manage in-app purchases for children under
-              their supervision.
-            </p>
-            {/* 7. Community-Created Categories */}
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              8. Community-Created Categories
-            </h4>
-            <p className="dark:text-gray-200">
-              You can create your own custom categories and choose to keep them
-              private just for yourself or share them publicly with the
-              community.
-              <ul className="list-disc pl-5 dark:text-gray-200">
+
+            {/* 4. Community Categories */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              4. Community-Created Categories
+            </h3>
+            <div className="dark:text-gray-200 space-y-3">
+              <p>
+                <strong>Access Requirements:</strong> Access to
+                community-created categories typically requires an active
+                subscription. However, we may occasionally offer free access to
+                community categories during special promotions or events at our
+                sole discretion. Free users can always play free original
+                categories and their own custom categories.
+              </p>
+              <p>
+                <strong>Content Ownership:</strong> When you create and share a
+                category publicly:
+              </p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>You retain ownership of your content</li>
                 <li>
-                  <strong>Private:</strong> Only you can view, edit, or delete
-                  these at any time.
+                  You grant Efhamni a worldwide, non-exclusive, royalty-free
+                  license to use, display, and distribute your content within
+                  the app
                 </li>
                 <li>
-                  <strong>Public:</strong> Visible to everyone—changes are
-                  final, but you can request removal by contacting our support
-                  team.
+                  Other users may play your categories as part of their
+                  subscription benefits or during promotional free access
+                  periods
+                </li>
+                <li>
+                  You can edit or delete your public categories if active at any
+                  time
                 </li>
               </ul>
-              Any inappropriate uploads violate our terms and may result in
-              removal of the content or suspension/deletion of your account. If
-              you need a public category taken down, please reach out to our
-              team for assistance.
-            </p>
+              <p>
+                <strong>Content Moderation:</strong> We reserve the right to
+                remove any content that:
+              </p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Violates these terms or community guidelines</li>
+                <li>Is reported by multiple users</li>
+                <li>Contains inappropriate, offensive, or harmful material</li>
+                <li>Infringes on intellectual property rights</li>
+              </ul>
+              <p>
+                <strong>Reporting System:</strong> Categories with 5+ reports
+                are automatically hidden pending review. False reporting may
+                result in restricted reporting privileges.
+              </p>
+              <p>
+                <strong>Important Notice:</strong> When you edit a public
+                category, all users who have played or saved it will see the
+                updated version. Please ensure your edits maintain appropriate
+                content standards.
+              </p>
+            </div>
 
-            {/* 8. Subscriptions */}
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              9. Subscriptions
-            </h4>
+            {/* 5. License to Use */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              5. License to Use
+            </h3>
             <p className="dark:text-gray-200">
-              Efhmani may offer subscription-based premium features in the
-              future. Subscription payments are processed via your device’s app
-              store; we do not store your payment details. By subscribing, you
-              agree to the store’s terms and this Privacy Policy.
+              We grant you a limited, non-exclusive, non-transferable license to
+              use Efhamni for personal, non-commercial purposes. This license
+              does not allow you to:
             </p>
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              10. Changes to This Privacy Policy
-            </h4>
-            <p className="dark:text-gray-200">
-              We may update this Privacy Policy periodically. Any changes will
-              be effective immediately upon posting in the app. We encourage you
-              to review this policy regularly.
-            </p>
-
-            {/* 6. Modifications and Maintenance */}
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              11. Modifications and Maintenance
-            </h4>
-            <ul className="list-disc pl-5 dark:text-gray-200">
+            <ul className="list-disc pl-5 dark:text-gray-200 space-y-2">
+              <li>Modify or copy the app materials</li>
+              <li>Use the materials for commercial purposes</li>
+              <li>Attempt to reverse engineer any software</li>
+              <li>Remove copyright or proprietary notations</li>
               <li>
-                We reserve the right to modify or update the game at any time.
+                Transfer materials to another person or &quot;mirror&quot; on
+                any server
               </li>
-              <li>
-                We may temporarily suspend the service for maintenance or
-                updates.
-              </li>
-              <li>These terms may be amended from time to time.</li>
             </ul>
 
-            {/* 7. Disclaimer */}
-            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              12. Disclaimer
-            </h4>
+            {/* 6. Data & Privacy */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              6. Data & Privacy
+            </h3>
             <p className="dark:text-gray-200">
-              The game is provided “as is” without any warranties. We shall not
-              be liable for any damages arising from the use of or inability to
-              use our services.
+              We collect gameplay analytics, account data, and user-generated
+              content as described in our{" "}
+              <Link
+                href="/efhamni-privacy-policy"
+                className="text-teal-600 dark:text-teal-400 underline"
+              >
+                Privacy Policy
+              </Link>
+              . By using the app, you consent to our data practices.
+            </p>
+
+            {/* 7. Disclaimer of Warranties */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              7. Disclaimer of Warranties
+            </h3>
+            <p className="dark:text-gray-200">
+              The app is provided &quot;as is&quot; without warranties of any
+              kind. We do not guarantee that:
+            </p>
+            <ul className="list-disc pl-5 dark:text-gray-200 space-y-2">
+              <li>The app will be uninterrupted or error-free</li>
+              <li>Defects will be corrected</li>
+              <li>The app is free of viruses or harmful components</li>
+              <li>Results from using the app will be accurate or reliable</li>
+            </ul>
+
+            {/* 8. Limitation of Liability */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              8. Limitation of Liability
+            </h3>
+            <p className="dark:text-gray-200">
+              To the fullest extent permitted by law, we shall not be liable for
+              any indirect, incidental, special, consequential, or punitive
+              damages resulting from your use or inability to use the app. Our
+              total liability will not exceed the amounts you paid to us in the
+              previous 12 months.
+            </p>
+
+            {/* 9. Updates and Modifications */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              9. Updates and Modifications
+            </h3>
+            <p className="dark:text-gray-200">We reserve the right to:</p>
+            <ul className="list-disc pl-5 dark:text-gray-200 space-y-2">
+              <li>Modify or discontinue features at any time</li>
+              <li>Update these terms without prior notice</li>
+              <li>Require app updates for continued use</li>
+              <li>Change subscription pricing with appropriate notice</li>
+            </ul>
+
+            {/* 10. Intellectual Property */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              10. Intellectual Property
+            </h3>
+            <p className="dark:text-gray-200">
+              All app content, features, and functionality are owned by us and
+              protected by international copyright, trademark, and other
+              intellectual property laws. The Efhamni name, logo, and all
+              related names, logos, product and service names, designs, and
+              slogans are our trademarks.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
