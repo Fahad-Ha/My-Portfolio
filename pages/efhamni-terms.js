@@ -154,6 +154,16 @@ export default function EfhamniPrivacyPolicy() {
                   the app
                 </li>
                 <li>
+                  You grant us permission to feature your content (including
+                  category name, description, and your username or any other
+                  data) in our marketing materials, social media accounts, and
+                  promotional content
+                </li>
+                <li>
+                  We may showcase exemplary community categories on our official
+                  Instagram (@efhamnikw) and other social media channels
+                </li>
+                <li>
                   Other users may play your categories as part of their
                   subscription benefits or during promotional free access
                   periods
@@ -184,6 +194,24 @@ export default function EfhamniPrivacyPolicy() {
                 updated version. Please ensure your edits maintain appropriate
                 content standards.
               </p>
+              <p>
+                <strong>Marketing and Attribution:</strong> By creating public
+                content, you acknowledge that:
+              </p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>We may feature your categories in promotional materials</li>
+                <li>
+                  If you delete your account, your public categories may remain
+                  available but will be anonymized
+                </li>
+                <li>
+                  You are responsible for ensuring your content doesn&apos;t
+                  infringe on others intellectual property
+                </li>
+                <li>
+                  We are not liable for any disputes arising from your content
+                </li>
+              </ul>
             </div>
 
             {/* 5. License to Use */}
