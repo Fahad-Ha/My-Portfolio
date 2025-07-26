@@ -33,7 +33,7 @@ export default function EfhamniPrivacyPolicy() {
               Terms of Use
             </h2>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200">
-              Last updated 27 December 2024
+              Last updated 27 July 2025
             </p>
           </div>
 
