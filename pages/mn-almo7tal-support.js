@@ -8,7 +8,7 @@ export default function MnoAlom7talSupport() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Support - Mn Alom7tal</title>
+        <title>Support - Mn Almo7tal</title>
         <meta name="description" content="Support page for Mno Alom7tal App" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -16,7 +16,7 @@ export default function MnoAlom7talSupport() {
       <main className="bg-white text-black px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="text-xl font-burtons">Mn Alom7tal</h1>
+            <h1 className="text-xl font-burtons">Mn Almo7tal</h1>
             <ul className="flex items-center">
               <li>
                 <BsMoonStarsFill
@@ -38,10 +38,10 @@ export default function MnoAlom7talSupport() {
           <div className="text-left bg-gray-50 dark:bg-gray-800 rounded-lg p-8 space-y-6">
             {/* About */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              About Mn Alom7tal (من المحتال؟)
+              About Mn Almo7tal (من المحتال؟)
             </h3>
             <p className="dark:text-gray-200">
-              Mn Alom7tal is a fun and engaging mobile game designed to bring entertainment and excitement to players of all ages.
+              Mn Almo7tal is a fun and engaging mobile game designed to bring entertainment and excitement to players of all ages.
             </p>
 
             {/* Contact Support */}
@@ -138,7 +138,7 @@ export default function MnoAlom7talSupport() {
         </section>
       </main>
       <footer className="text-center bg-white text-gray-800 pt-5 pb-2 dark:text-gray-200 dark:bg-gray-900">
-        Made by Mno Alom7tal Team
+        Made by Mn Almo7tal Team
         <p>Last updated Oct 2025</p>
       </footer>
     </div>
