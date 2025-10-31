@@ -72,7 +72,7 @@ export default function MnoAlom7talSupport() {
                   How do I play the game?
                 </h4>
                 <p className="dark:text-gray-200">
-                  Simply download the app from the App Store and follow the on-screen instructions to get started.
+                  Simply download the app from the App Store or Google Play Store and follow the on-screen instructions to get started.
                 </p>
               </div>
 
@@ -90,7 +90,7 @@ export default function MnoAlom7talSupport() {
                   How do I request a refund?
                 </h4>
                 <p className="dark:text-gray-200">
-                  Refund requests are handled by the App Store. You can request a refund directly through your Apple account.
+                  Refund requests are handled by the App Store or Google Play Store. You can request a refund directly through your Apple account or Google Play account.
                 </p>
               </div>
 
@@ -122,7 +122,7 @@ export default function MnoAlom7talSupport() {
                   >
                     fahad.devx@gmail.com
                   </a>
-                  .
+                  . Your user account will be permanently deleted.
                 </p>
               </div>
             </div>
