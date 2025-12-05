@@ -86,9 +86,9 @@ export default function ActAndShoutSupport() {
                   Is the app free?
                 </h4>
                 <p className="dark:text-gray-200">
-                  The app is free to download and includes many original categories
-                  to play. A subscription unlocks the ability to create your own
-                  custom categories with personalized word lists.
+                  The app is free to download and includes several free categories
+                  to play. A subscription unlocks extra categories, game configuration
+                  options, and the ability to create your own custom categories.
                 </p>
               </div>
 
@@ -97,10 +97,13 @@ export default function ActAndShoutSupport() {
                   What does the subscription include?
                 </h4>
                 <p className="dark:text-gray-200">
-                  With a subscription, you can create unlimited custom categories
-                  with your own words. This lets you personalize the game for
-                  specific themes, inside jokes, or educational purposes.
+                  With a subscription, you get access to:
                 </p>
+                <ul className="list-disc pl-5 mt-2 dark:text-gray-200">
+                  <li><strong>Extra Categories:</strong> Unlock additional built-in categories beyond the free ones.</li>
+                  <li><strong>Game Configuration:</strong> Customize game settings like timer duration, number of rounds, and more.</li>
+                  <li><strong>Custom Categories:</strong> Create unlimited custom categories with your own words for specific themes, inside jokes, or educational purposes.</li>
+                </ul>
               </div>
 
               <div>

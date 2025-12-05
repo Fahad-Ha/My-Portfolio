@@ -90,11 +90,15 @@ export default function ActAndShoutTerms() {
                 <strong>RevenueCat</strong>.
               </li>
               <li>
-                Premium subscription unlocks the ability to create and play
-                custom categories with your own personalized word lists.
+                Subscription unlocks:
+                <ul className="list-disc pl-5 mt-1 space-y-1">
+                  <li>Extra categories beyond the free ones</li>
+                  <li>Game configuration options (timer, rounds, etc.)</li>
+                  <li>Ability to create custom categories with your own personalized word lists</li>
+                </ul>
               </li>
               <li>
-                Free users can play all original categories included in the app.
+                Free users can play the free categories included in the app.
               </li>
               <li>
                 Virtual items and features have no cash value and are
@@ -126,15 +130,21 @@ export default function ActAndShoutTerms() {
               permanent termination.
             </p>
 
-            {/* 4. Custom Categories */}
+            {/* 4. Subscription Features & Custom Categories */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              4. Custom Categories
+              4. Subscription Features & Custom Categories
             </h3>
             <div className="dark:text-gray-200 space-y-3">
               <p>
-                <strong>Subscription Requirement:</strong> Creating custom
-                categories requires an active subscription. Free users can
-                play all original categories included in the app.
+                <strong>Subscription Requirement:</strong> Premium features
+                require an active subscription. This includes access to extra
+                categories, game configuration options, and custom categories.
+                Free users can play the free categories included in the app.
+              </p>
+              <p>
+                <strong>Game Configuration:</strong> Subscribers can customize
+                game settings such as timer duration, number of rounds, and other
+                gameplay options.
               </p>
               <p>
                 <strong>Private Use:</strong> Custom categories you create are

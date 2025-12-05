@@ -148,10 +148,11 @@ export default function ActAndShoutPrivacyPolicy() {
             </h4>
             <p className="dark:text-gray-200">
               Act & Shout offers subscription-based premium features. Subscribing
-              unlocks custom categories, allowing you to create and play your own
-              personalized word lists. Subscription payments are processed via your
-              device&apos;s app store; we do not store your payment details. By
-              subscribing, you agree to the store&apos;s terms and this Privacy Policy.
+              unlocks extra categories, game configuration options (such as timer
+              and round settings), and the ability to create custom categories with
+              your own personalized word lists. Subscription payments are processed
+              via your device&apos;s app store; we do not store your payment details.
+              By subscribing, you agree to the store&apos;s terms and this Privacy Policy.
             </p>
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
               8. Custom Categories
