@@ -144,21 +144,6 @@ export default function ActAndShoutSupport() {
                 </p>
               </div>
 
-              <div>
-                <h4 className="text-lg font-semibold dark:text-gray-100">
-                  How can I delete my account or data?
-                </h4>
-                <p className="dark:text-gray-200">
-                  To request account or data deletion, please contact us at{" "}
-                  <a
-                    href="mailto:support@fahad-labs.com"
-                    className="text-teal-600 dark:text-teal-400 underline"
-                  >
-                    support@fahad-labs.com
-                  </a>
-                  . Your user account and all custom categories will be permanently deleted.
-                </p>
-              </div>
             </div>
 
             {/* Response Time */}
