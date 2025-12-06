@@ -136,12 +136,14 @@ export default function ActAndShoutPrivacyPolicy() {
               6. Children&apos;s Privacy
             </h4>
             <p className="dark:text-gray-200">
-              Act & Shout is rated 4+ on the App Store and suitable for all ages.
-              We do not knowingly collect personal data from children under 13.
+              Act & Shout is rated 4+ on the App Store and 3+ on Google Play.
+              However, this app is intended for users aged 13 and older. We do
+              not knowingly collect personal data from children under 13.
             </p>
             <p className="dark:text-gray-200">
-              Parents are encouraged to monitor app usage to ensure a safe and
-              age-appropriate experience.
+              If you are under 13, please do not use this app. Parents are
+              encouraged to monitor app usage to ensure a safe and age-appropriate
+              experience.
             </p>
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
               7. Subscriptions

@@ -75,9 +75,9 @@ export default function ActAndShoutTerms() {
               1. Age Requirement
             </h3>
             <p className="dark:text-gray-200">
-              The Game is rated 4+ on App Store and suitable for all ages. If you
-              are under 13 you must have parental permission before playing or
-              making purchases.
+              The Game is rated 4+ on App Store and 3+ on Google Play. However,
+              this app is intended for users aged 13 and older. If you are under
+              13, you should not use this app.
             </p>
 
             {/* 2. Subscriptions & Purchases */}
