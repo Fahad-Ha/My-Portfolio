@@ -115,10 +115,64 @@ export default function SarkkTerms() {
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
               3. User Conduct
             </h3>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              3.1 Prohibited Conduct
+            </h4>
             <p className="dark:text-gray-200">
-              You agree not to cheat, harass others, upload unlawful content, or
-              reverse-engineer the Game. Violations may result in suspension or
-              termination.
+              You agree not to engage in conduct that:
+            </p>
+            <ul className="list-disc pl-5 dark:text-gray-200 space-y-2">
+              <li>
+                Harasses, threatens, intimidates, or bullies other players
+              </li>
+              <li>
+                Uses hate speech, slurs, or content targeting race, religion,
+                gender, sexual orientation, nationality, or disability
+              </li>
+              <li>
+                Contains sexual, violent, or otherwise unlawful content
+              </li>
+              <li>
+                Impersonates others or uses an offensive display name or avatar
+              </li>
+              <li>Cheats, exploits bugs, or uses automated tools</li>
+              <li>
+                Deliberately disrupts gameplay (e.g., persistent inactivity,
+                sabotage)
+              </li>
+              <li>
+                Reverse-engineers, modifies, or redistributes any part of the
+                Game
+              </li>
+            </ul>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              3.2 Reporting and Moderation
+            </h4>
+            <p className="dark:text-gray-200">
+              The Game provides in-app tools to report other players whose
+              conduct violates these Terms. Reports are reviewed by our
+              moderation team and may result in warnings, kicks, or
+              permanent bans. Hosts of private rooms may also remove disruptive
+              players directly. We may take action against accounts at our
+              discretion based on report patterns, content review, or system
+              signals.
+            </p>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              3.3 Appeals
+            </h4>
+            <p className="dark:text-gray-200">
+              If you believe an action was taken against your account in error,
+              contact{" "}
+              <a
+                href="mailto:support@fahad-labs.com"
+                className="text-teal-600 dark:text-teal-400 underline"
+              >
+                support@fahad-labs.com
+              </a>{" "}
+              with your account details and the date of the incident.
             </p>
 
             {/* 4. Data & Privacy */}
@@ -163,10 +217,10 @@ export default function SarkkTerms() {
             <p className="dark:text-gray-200">
               Questions? Email&nbsp;
               <a
-                href="mailto:sarkk.game@gmail.com"
+                href="mailto:support@fahad-labs.com"
                 className="text-teal-600 dark:text-teal-400 underline"
               >
-                sarkk.game@gmail.com
+                support@fahad-labs.com
               </a>
               .
             </p>

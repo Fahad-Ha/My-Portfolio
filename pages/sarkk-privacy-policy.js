@@ -118,9 +118,9 @@ export default function SarkkPrivacyPolicy() {
               If you encounter any issues, email&nbsp;
               <a
                 className="dark:text-teal-400 text-teal-600 underline"
-                href="mailto:sarkk.game@gmail.com"
+                href="mailto:support@fahad-labs.com"
               >
-                sarkk.game@gmail.com
+                support@fahad-labs.com
               </a>
               &nbsp;and we’ll assist you.
             </p>
@@ -236,7 +236,7 @@ export default function SarkkPrivacyPolicy() {
                 className="dark:text-teal-400 text-teal-600"
                 href="mailto:fahad.devx@gmail.com"
               >
-                sarkk.game@gmail.com
+                support@fahad-labs.com
               </a>
               .
             </p>
