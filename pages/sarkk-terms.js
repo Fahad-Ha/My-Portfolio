@@ -199,9 +199,23 @@ export default function SarkkTerms() {
               at any time.
             </p>
 
-            {/* 6. Limitation of Liability */}
+            {/* 6. Changes to these Terms */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              6. Limitation of Liability
+              6. Changes to these Terms
+            </h3>
+            <p className="dark:text-gray-200">
+              We may update these Terms from time to time by posting the
+              revised version on this page. The &ldquo;Last updated&rdquo;
+              date above reflects the effective date of the most recent
+              revision, and we encourage you to review these Terms periodically.
+              Your continued use of the Game after a revised version is posted
+              constitutes acceptance of the updated Terms. If you do not agree,
+              you must stop using the Game.
+            </p>
+
+            {/* 7. Limitation of Liability */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              7. Limitation of Liability
             </h3>
             <p className="dark:text-gray-200">
               To the fullest extent permitted by law, the Developer shall not be
@@ -210,9 +224,9 @@ export default function SarkkTerms() {
               months.
             </p>
 
-            {/* 7. Contact */}
+            {/* 8. Contact */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              7. Contact
+              8. Contact
             </h3>
             <p className="dark:text-gray-200">
               Questions? Email&nbsp;
