@@ -40,7 +40,7 @@ export default function SarkkTerms() {
               Terms of Use
             </h2>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200">
-              Last updated 23 June 2025
+              Last updated 9 May 2026
             </p>
           </div>
 
