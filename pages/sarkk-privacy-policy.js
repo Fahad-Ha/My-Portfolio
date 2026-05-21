@@ -281,9 +281,11 @@ export default function SarkkPrivacyPolicy() {
               </li>
             </ul>
             <p className="pt-2 dark:text-gray-200">
-              <strong>Reporting violations.</strong> You can report any user,
-              category, question, or chat message through the in‑app report
-              buttons. Reports are reviewed by our moderation team.
+              <strong>Reporting violations.</strong> You can report users,
+              categories, or questions through the in‑app report buttons. When
+              you report a player, a snapshot of their recent ▎ in‑game chat is
+              captured automatically and attached to the report. All reports are
+              reviewed by our moderation team.
             </p>
             <p className="pt-2 dark:text-gray-200">
               <strong>Blocking and removal.</strong> Hosts can remove players
