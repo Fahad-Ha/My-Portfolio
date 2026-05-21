@@ -62,8 +62,8 @@ export default function SarkkPrivacyPolicy() {
                 <strong>1.3 User‑Generated Content:</strong> Categories and
                 questions you create, and any cover images or question images
                 you upload. Content you mark as public is stored on our servers
-                and visible to other players; private content is only visible
-                to you.
+                and visible to other players; private content is only visible to
+                you.
               </li>
               <li>
                 <strong>1.4 Chat Messages:</strong> Messages you send to other
@@ -152,10 +152,10 @@ export default function SarkkPrivacyPolicy() {
               <li>
                 <strong>Other Players:</strong> Your display name, avatar,
                 in‑game scores, and public community content are visible to
-                other players you share game rooms or public community
-                content with. Chat messages are visible only to the players
-                in the specific game room where you send them — not to other
-                players outside that room.
+                other players you share game rooms or public community content
+                with. Chat messages are visible only to the players in the
+                specific game room where you send them — not to other players
+                outside that room.
               </li>
               <li>
                 <strong>Service Providers:</strong> We share data with trusted
@@ -175,13 +175,13 @@ export default function SarkkPrivacyPolicy() {
               5. Data Retention
             </h4>
             <p className="dark:text-gray-200">
-              We retain your account data for as long as your account is
-              active. Chat messages are stored only for the duration of an
-              active game session and are not persisted afterward. Moderation
-              reports are retained for up to 12 months for safety review
-              purposes. Game stats and history are retained for as long as
-              your account exists. When you delete your account, personal
-              data is removed as described in Section 3.
+              We retain your account data for as long as your account is active.
+              Chat messages are stored only for the duration of an active game
+              session and are not persisted afterward. Moderation reports are
+              retained for up to 12 months for safety review purposes. Game
+              stats and history are retained for as long as your account exists.
+              When you delete your account, personal data is removed as
+              described in Section 3.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
@@ -190,10 +190,10 @@ export default function SarkkPrivacyPolicy() {
             <p className="dark:text-gray-200">
               Your data is processed and stored on servers operated by our
               hosting providers, which may be located outside your country of
-              residence. We take reasonable steps to ensure adequate
-              protection during international transfers, including using
-              providers that offer industry‑standard security and contractual
-              data protection safeguards.
+              residence. We take reasonable steps to ensure adequate protection
+              during international transfers, including using providers that
+              offer industry‑standard security and contractual data protection
+              safeguards.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
@@ -201,8 +201,8 @@ export default function SarkkPrivacyPolicy() {
             </h4>
             <p className="dark:text-gray-200">
               Sarkk is rated appropriately by store rating boards (IARC on
-              Google Play and Apple's age‑rating system on the App Store) based
-              on its features, including in‑app chat and user‑generated
+              Google Play and Apple&apos;s age‑rating system on the App Store)
+              based on its features, including in‑app chat and user‑generated
               content. We do not knowingly collect personal data from children
               under 13.
             </p>
@@ -229,15 +229,14 @@ export default function SarkkPrivacyPolicy() {
                 these at any time.
               </li>
               <li>
-                <strong>Public:</strong> Visible to everyone—changes are
-                final, but you can request removal by contacting our support
-                team.
+                <strong>Public:</strong> Visible to everyone—changes are final,
+                but you can request removal by contacting our support team.
               </li>
             </ul>
             <p className="pt-2 dark:text-gray-200">
-              Community content must follow our Community Standards (see
-              Section 10). If you need a public category taken down, please
-              reach out to our team for assistance.
+              Community content must follow our Community Standards (see Section
+              10). If you need a public category taken down, please reach out to
+              our team for assistance.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
@@ -250,35 +249,35 @@ export default function SarkkPrivacyPolicy() {
             </p>
             <ul className="list-disc pl-5 dark:text-gray-200">
               <li>
-                <strong>No hate speech or harassment.</strong> Content
-                targeting people based on race, ethnicity, religion,
-                nationality, gender, sexual orientation, disability, or other
-                protected attributes is prohibited.
+                <strong>No hate speech or harassment.</strong> Content targeting
+                people based on race, ethnicity, religion, nationality, gender,
+                sexual orientation, disability, or other protected attributes is
+                prohibited.
               </li>
               <li>
-                <strong>No sexual or sexually suggestive content.</strong>{" "}
-                This includes images, questions, and chat messages.
+                <strong>No sexual or sexually suggestive content.</strong> This
+                includes images, questions, and chat messages.
               </li>
               <li>
                 <strong>No violence or graphic content.</strong> No
                 glorification of real violence, terrorism, or self‑harm.
               </li>
               <li>
-                <strong>No illegal content.</strong> No content promoting
-                drugs, weapons sales, fraud, or other illegal activity.
+                <strong>No illegal content.</strong> No content promoting drugs,
+                weapons sales, fraud, or other illegal activity.
               </li>
               <li>
-                <strong>No impersonation or fraud.</strong> Don't pose as
+                <strong>No impersonation or fraud.</strong> Don&apos;t pose as
                 someone else or use the app to deceive other players.
               </li>
               <li>
-                <strong>No spam or commercial content.</strong> Don't use
+                <strong>No spam or commercial content.</strong> Don&apos;t use
                 community categories or chat for advertising or promotion.
               </li>
               <li>
-                <strong>Respect intellectual property.</strong> Don't upload
-                images or questions copied from copyrighted sources without
-                permission.
+                <strong>Respect intellectual property.</strong> Don&apos;t
+                upload images or questions copied from copyrighted sources
+                without permission.
               </li>
             </ul>
             <p className="pt-2 dark:text-gray-200">
@@ -288,20 +287,20 @@ export default function SarkkPrivacyPolicy() {
             </p>
             <p className="pt-2 dark:text-gray-200">
               <strong>Blocking and removal.</strong> Hosts can remove players
-              from their game rooms. Our moderation team may remove content
-              that violates these standards and suspend or permanently ban
-              accounts for repeated or serious violations.
+              from their game rooms. Our moderation team may remove content that
+              violates these standards and suspend or permanently ban accounts
+              for repeated or serious violations.
             </p>
             <p className="pt-2 dark:text-gray-200">
-              <strong>Appeals.</strong> If you believe your content was
-              removed or your account was suspended in error, contact{" "}
+              <strong>Appeals.</strong> If you believe your content was removed
+              or your account was suspended in error, contact{" "}
               <a
                 className="dark:text-teal-400 text-teal-600 underline"
                 href="mailto:support@fahad-labs.com"
               >
                 support@fahad-labs.com
               </a>
-              . We'll review and respond within 14 days.
+              . We&apos;ll review and respond within 14 days.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
