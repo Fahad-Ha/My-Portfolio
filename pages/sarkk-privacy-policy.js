@@ -216,7 +216,50 @@ export default function SarkkPrivacyPolicy() {
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              9. Community-Created Categories
+              9. Advertising and Measurement (Meta)
+            </h4>
+            <p className="dark:text-gray-200">
+              We use advertising and measurement tools provided by Meta
+              Platforms (Facebook) to understand how our advertising performs —
+              specifically, to attribute app installs and subscription purchases
+              to the ad campaigns that drove them, and to measure and improve
+              our advertising.
+            </p>
+            <p className="pt-2 dark:text-gray-200">
+              For this purpose we may share with Meta:
+            </p>
+            <ul className="list-disc pl-5 dark:text-gray-200">
+              <li>
+                <strong>Device‑level advertising identifiers</strong> — on
+                Android, the Google Advertising ID and a Facebook‑generated app
+                identifier; on iOS, aggregated, privacy‑preserving measurement
+                via Apple&apos;s SKAdNetwork plus a Facebook app identifier used
+                only for our own measurement.
+              </li>
+              <li>
+                <strong>Information about subscription purchases,</strong>{" "}
+                including the purchase and its value.
+              </li>
+            </ul>
+            <p className="pt-2 dark:text-gray-200">
+              We do not share your email address or other contact information
+              with Meta for advertising. Meta processes this data under its own
+              Data Policy (
+              <a
+                className="dark:text-teal-400 text-teal-600 underline"
+                href="https://www.facebook.com/privacy/policy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.facebook.com/privacy/policy
+              </a>
+              ). On Android you can reset or limit your advertising identifier in
+              your device settings; on iOS, this measurement is aggregated and
+              does not identify you individually.
+            </p>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              10. Community-Created Categories
             </h4>
             <p className="dark:text-gray-200">
               You can create your own custom categories and choose to keep them
@@ -235,12 +278,12 @@ export default function SarkkPrivacyPolicy() {
             </ul>
             <p className="pt-2 dark:text-gray-200">
               Community content must follow our Community Standards (see Section
-              10). If you need a public category taken down, please reach out to
+              11). If you need a public category taken down, please reach out to
               our team for assistance.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              10. Community Standards
+              11. Community Standards
             </h4>
             <p className="dark:text-gray-200">
               Sarkk is a social game. To keep it safe and welcoming, users must
@@ -306,7 +349,7 @@ export default function SarkkPrivacyPolicy() {
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              11. Changes to This Policy
+              12. Changes to This Policy
             </h4>
             <p className="dark:text-gray-200">
               We may update this policy periodically. Changes take effect as
@@ -314,7 +357,7 @@ export default function SarkkPrivacyPolicy() {
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              12. Subscriptions
+              13. Subscriptions
             </h4>
             <p className="dark:text-gray-200">
               Sarkk offers subscription-based premium features. Subscription
@@ -324,7 +367,7 @@ export default function SarkkPrivacyPolicy() {
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              13. Modifications and Maintenance
+              14. Modifications and Maintenance
             </h4>
             <ul className="list-disc pl-5 dark:text-gray-200">
               <li>
@@ -338,7 +381,7 @@ export default function SarkkPrivacyPolicy() {
             </ul>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              14. Disclaimer
+              15. Disclaimer
             </h4>
             <p className="dark:text-gray-200">
               The game is provided “as is” without any warranties. We shall not
@@ -347,7 +390,7 @@ export default function SarkkPrivacyPolicy() {
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              15. Contact Us
+              16. Contact Us
             </h4>
             <p className="dark:text-gray-200">
               Questions or concerns? Email us at{" "}
