@@ -56,7 +56,9 @@ export default function SarkkPrivacyPolicy() {
               <li>
                 <strong>1.2 Profile & Gameplay Data:</strong> Your display name
                 (which is visible to other players in game rooms and on
-                community content), in‑game stats, and gameplay history.
+                community content), in‑game stats, gameplay history, and
+                engagement on your community content (such as likes your
+                categories receive).
               </li>
               <li>
                 <strong>1.3 User‑Generated Content:</strong> Categories and
@@ -78,12 +80,18 @@ export default function SarkkPrivacyPolicy() {
               </li>
 
               <li>
-                <strong>1.6 Automatically Collected Information:</strong> Device
+                <strong>1.6 Purchases & Coin Data:</strong> Your in‑app
+                purchase history, your coin balance, and the history of coin
+                transactions (coins purchased, earned, and spent) tied to your
+                account.
+              </li>
+              <li>
+                <strong>1.7 Automatically Collected Information:</strong> Device
                 type, operating system, usage statistics, crash reports, and
                 diagnostic data to improve app performance.
               </li>
               <li>
-                <strong>1.7 Third‑Party Services:</strong> If you interact with
+                <strong>1.8 Third‑Party Services:</strong> If you interact with
                 ads or analytics providers, they may collect data per their own
                 policies.
               </li>
@@ -96,6 +104,15 @@ export default function SarkkPrivacyPolicy() {
               <li>Provide and improve the Sarkk gameplay experience.</li>
               <li>Analyze app performance and usage.</li>
               <li>Process in‑app purchases securely.</li>
+              <li>
+                Calculate in‑game rewards — for example, likes received on your
+                community categories are used to determine coin awards.
+              </li>
+              <li>
+                Detect and prevent fraud and abuse, including analyzing device
+                identifiers and usage patterns to detect manipulation of
+                in‑game rewards.
+              </li>
               <li>Respond to your support requests.</li>
               <li>Comply with legal obligations and protect our rights.</li>
             </ul>
@@ -159,7 +176,10 @@ export default function SarkkPrivacyPolicy() {
               </li>
               <li>
                 <strong>Service Providers:</strong> We share data with trusted
-                partners for analytics and purchase processing.
+                partners for analytics and purchase processing. In‑app
+                purchases and subscriptions are processed with the help of{" "}
+                <strong>RevenueCat</strong>, which receives purchase and
+                transaction data needed to deliver and manage your purchases.
               </li>
               <li>
                 <strong>Legal Compliance:</strong> To comply with legal
@@ -180,8 +200,11 @@ export default function SarkkPrivacyPolicy() {
               session and are not persisted afterward. Moderation reports are
               retained for up to 12 months for safety review purposes. Game
               stats and history are retained for as long as your account exists.
-              When you delete your account, personal data is removed as
-              described in Section 3.
+              Coin balances and coin transaction records (purchases, earnings,
+              and spending) are retained for the life of your account for
+              support, accounting, and fraud‑prevention purposes. When you
+              delete your account, personal data is removed as described in
+              Section 3.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
@@ -326,7 +349,7 @@ export default function SarkkPrivacyPolicy() {
             <p className="pt-2 dark:text-gray-200">
               <strong>Reporting violations.</strong> You can report users,
               categories, or questions through the in‑app report buttons. When
-              you report a player, a snapshot of their recent ▎ in‑game chat is
+              you report a player, a snapshot of their recent in‑game chat is
               captured automatically and attached to the report. All reports are
               reviewed by our moderation team.
             </p>
@@ -357,13 +380,14 @@ export default function SarkkPrivacyPolicy() {
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              13. Subscriptions
+              13. Subscriptions & In‑App Purchases
             </h4>
             <p className="dark:text-gray-200">
-              Sarkk offers subscription-based premium features. Subscription
-              payments are processed via your device’s app store; we do not
-              store your payment details. By subscribing, you agree to the
-              store’s terms and this Privacy Policy.
+              Sarkk offers subscription-based premium features and consumable
+              coin packs. Payments are processed via your device’s app store
+              with the help of RevenueCat; we do not store your payment
+              details. By making a purchase, you agree to the store’s terms and
+              this Privacy Policy.
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">

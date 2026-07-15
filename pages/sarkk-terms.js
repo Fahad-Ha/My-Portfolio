@@ -40,7 +40,7 @@ export default function SarkkTerms() {
               Terms of Use
             </h2>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200">
-              Last updated 9 May 2026
+              Last updated 16 July 2026
             </p>
           </div>
 
@@ -111,13 +111,89 @@ export default function SarkkTerms() {
               </li>
             </ul>
 
-            {/* 3. User Conduct */}
+            {/* 3. Virtual Currency (Coins) */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              3. User Conduct
+              3. Virtual Currency (Coins)
             </h3>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              3.1 Prohibited Conduct
+              3.1 Nature of Coins & Store Items
+            </h4>
+            <ul className="list-disc pl-5 dark:text-gray-200 space-y-2">
+              <li>
+                Coins — whether purchased or earned in-game — are a limited,
+                personal, revocable license to access features within the Game.
+                They are not your property, have no cash or real-world value,
+                and are not redeemable for real money or anything of value
+                outside the Game.
+              </li>
+              <li>
+                Coins cannot be transferred, sold, traded, or gifted between
+                accounts or to other players.
+              </li>
+              <li>
+                We may change coin prices, coin-pack contents, earning rates,
+                and what coins can be used for at any time. Items offered in
+                the in-game store (such as avatars and categories) may be
+                modified, replaced, or removed at any time.
+              </li>
+            </ul>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              3.2 Earning Coins & Reward Integrity
+            </h4>
+            <p className="dark:text-gray-200">
+              Coins may be awarded for in-game activity, such as receiving
+              likes on your community categories, at rates we determine and may
+              change at any time. Artificially inflating rewards — including
+              fake likes, like-exchange schemes, the use of multiple accounts,
+              or automation — is prohibited and may result in the removal of
+              coins or items and the suspension or termination of your account.
+            </p>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              3.3 Coin Packs (Consumable Purchases) & Refunds
+            </h4>
+            <ul className="list-disc pl-5 dark:text-gray-200 space-y-2">
+              <li>
+                Coin packs are consumable in-app purchases billed by the App
+                Store or Google Play through your store account. Purchased
+                coins are delivered to your account upon completion of the
+                purchase.
+              </li>
+              <li>
+                All coin sales are final except as required by applicable law
+                or the relevant store&apos;s refund policy. If a purchase is
+                refunded, the corresponding coins — or any items bought with
+                them — may be removed from your account.
+              </li>
+            </ul>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              3.4 Forfeiture
+            </h4>
+            <p className="dark:text-gray-200">
+              Coins and store items — whether purchased or earned — are
+              forfeited without compensation when your account is deleted or
+              permanently banned.
+            </p>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              3.5 Bonus & Promotional Coins
+            </h4>
+            <p className="dark:text-gray-200">
+              Bonus or promotional coins and redemption codes (including
+              welcome grants and promotional offers) may be granted, modified,
+              or revoked at our discretion at any time and have no cash value.
+            </p>
+
+            {/* 4. User Conduct */}
+            <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
+              4. User Conduct
+            </h3>
+
+            <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
+              4.1 Prohibited Conduct
             </h4>
             <p className="dark:text-gray-200">
               You agree not to engage in conduct that:
@@ -138,6 +214,10 @@ export default function SarkkTerms() {
               </li>
               <li>Cheats, exploits bugs, or uses automated tools</li>
               <li>
+                Artificially inflates coin rewards or engagement, such as fake
+                likes or like exchanges (see Section 3.2)
+              </li>
+              <li>
                 Deliberately disrupts gameplay (e.g., persistent inactivity,
                 sabotage)
               </li>
@@ -148,7 +228,7 @@ export default function SarkkTerms() {
             </ul>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              3.2 Reporting and Moderation
+              4.2 Reporting and Moderation
             </h4>
             <p className="dark:text-gray-200">
               The Game provides in-app tools to report other players whose
@@ -161,7 +241,7 @@ export default function SarkkTerms() {
             </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
-              3.3 Appeals
+              4.3 Appeals
             </h4>
             <p className="dark:text-gray-200">
               If you believe an action was taken against your account in error,
@@ -175,9 +255,9 @@ export default function SarkkTerms() {
               with your account details and the date of the incident.
             </p>
 
-            {/* 4. Data & Privacy */}
+            {/* 5. Data & Privacy */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              4. Data & Privacy
+              5. Data & Privacy
             </h3>
             <p className="dark:text-gray-200">
               We collect gameplay analytics and account data as described in our{" "}
@@ -190,18 +270,18 @@ export default function SarkkTerms() {
               .
             </p>
 
-            {/* 5. Updates */}
+            {/* 6. Updates */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              5. Updates
+              6. Updates
             </h3>
             <p className="dark:text-gray-200">
               Features, content, or virtual items may change or be discontinued
               at any time.
             </p>
 
-            {/* 6. Changes to these Terms */}
+            {/* 7. Changes to these Terms */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              6. Changes to these Terms
+              7. Changes to these Terms
             </h3>
             <p className="dark:text-gray-200">
               We may update these Terms from time to time by posting the
@@ -213,9 +293,9 @@ export default function SarkkTerms() {
               you must stop using the Game.
             </p>
 
-            {/* 7. Limitation of Liability */}
+            {/* 8. Limitation of Liability */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              7. Limitation of Liability
+              8. Limitation of Liability
             </h3>
             <p className="dark:text-gray-200">
               To the fullest extent permitted by law, the Developer shall not be
@@ -224,9 +304,9 @@ export default function SarkkTerms() {
               months.
             </p>
 
-            {/* 8. Contact */}
+            {/* 9. Contact */}
             <h3 className="text-2xl font-semibold py-2 dark:text-teal-400">
-              8. Contact
+              9. Contact
             </h3>
             <p className="dark:text-gray-200">
               Questions? Email&nbsp;
