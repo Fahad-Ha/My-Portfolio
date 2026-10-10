@@ -237,6 +237,15 @@ export default function SarkkPrivacyPolicy() {
               We may use third‑party tools like Google Analytics; their data
               practices are governed by their own privacy policies.
             </p>
+            <p className="pt-2 dark:text-gray-200">
+              <strong>Website analytics:</strong> On our website
+              (sarkkgame.com), including the browser version of the game, we
+              use Cloudflare Web Analytics to count visits and measure page
+              performance. It does not use cookies or local storage, does not
+              track you across other websites, and does not identify you
+              individually. Cloudflare processes basic technical request data
+              (such as your IP address) only to provide this service.
+            </p>
 
             <h4 className="text-xl font-semibold py-2 dark:text-teal-400">
               9. Advertising and Measurement (Meta)
