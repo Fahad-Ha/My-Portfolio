@@ -87,8 +87,10 @@ export default function SarkkPrivacyPolicy() {
               </li>
               <li>
                 <strong>1.7 Automatically Collected Information:</strong> Device
-                type, operating system, usage statistics, crash reports, and
-                diagnostic data to improve app performance.
+                type, operating system, app version, usage statistics, crash
+                reports, diagnostic data, and an approximate (city‑level)
+                location derived from your IP address, to improve app
+                performance and understand how the app is used.
               </li>
               <li>
                 <strong>1.8 Third‑Party Services:</strong> If you interact with
@@ -234,8 +236,36 @@ export default function SarkkPrivacyPolicy() {
               8. Third‑Party Services
             </h4>
             <p className="dark:text-gray-200">
-              We may use third‑party tools like Google Analytics; their data
-              practices are governed by their own privacy policies.
+              <strong>App analytics and crash reporting:</strong> We use Google
+              Firebase Analytics and Mixpanel to understand how the app is used
+              (for example which screens are opened, games played and finished,
+              and subscription events), and Firebase Crashlytics to receive
+              crash reports. These services receive a pseudonymous user ID (not
+              your email address), your in‑game display name, product‑interaction
+              and purchase events, device type and app version, crash and
+              diagnostic data, and an approximate (city‑level) location derived
+              from your IP address on app events. Mixpanel data is hosted in the
+              United States. We do not send your email address, chat messages or
+              content you type to these providers. Their practices are governed
+              by their own privacy policies:{" "}
+              <a
+                className="dark:text-teal-400 text-teal-600 underline"
+                href="https://mixpanel.com/legal/privacy-policy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Mixpanel
+              </a>{" "}
+              and{" "}
+              <a
+                className="dark:text-teal-400 text-teal-600 underline"
+                href="https://firebase.google.com/support/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Firebase
+              </a>
+              .
             </p>
             <p className="pt-2 dark:text-gray-200">
               <strong>Website analytics:</strong> On our website
